@@ -814,6 +814,11 @@ Recently, end-to-end models based on recurrent neural networks (RNN) have gained
 </p></blockquote></details>
 
 
+<details>
+<summary>24. <a href="https://www.aclweb.org/anthology/P18-1048.pdf">Self-regulation: Employing a Generative Adversarial Network to Improve Event Detectio</a> by<i> Tongtao Zhang, Heng Ji and Avirup Sil</i></summary><blockquote><p align="justify">Due to the ability of encoding and map-ping semantic information into a high-dimensional latent feature space, neuralnetworks have been successfully used fordetecting events to a certain extent. How-ever, such a feature space can be easilycontaminated by spurious features inher-ent in event detection. In this paper, wepropose a self-regulated learning approachby utilizing a generative adversarial net-work to generate spurious features. On thebasis, we employ a recurrent network toeliminate the fakes. Detailed experimentson the ACE 2005 and TAC-KBP 2015 cor-pora show that our proposed method ishighly effective and adaptable.
+</p></blockquote></details>
+
+
 ### 2019
 
  
@@ -956,12 +961,22 @@ We examine the capabilities of a unified, multi-task framework for three informa
 Syntactic relations are broadly used in many NLP tasks. For event detection, syntactic relation representations based on dependency tree can better capture the interrelations between candidate trigger words and related entities than sentence representations. But, existing studies only use first-order syntactic relations (i.e., the arcs) in dependency trees to identify trigger words. For this reason, this paper proposes a new method for event detection, which uses a dependency tree based graph convolution network with aggregative attention to explicitly model and aggregate multi-order syntactic representations in sentences. Experimental comparison with state-of-the-art baselines shows the superiority of the proposed method.
 </p></blockquote></details>
 
+
+<details>
+<summary>22. <a href="https://www.mitpressjournals.org/doi/full/10.1162/dint_a_00014">Joint entity and event extraction with generative adversarial imitation learning</a> by<i> Tongtao Zhang, Heng Ji and Avirup Sil</i></summary><blockquote><p align="justify">
+We propose a new framework for entity and event extraction based on generative adversarial imitation learning—an inverse reinforcement learning method using a generative adversarial network (GAN). We assume that instances and labels yield to various extents of difficulty and the gains and penalties (rewards) are expected to be diverse. We utilize discriminators to estimate proper rewards according to the difference between the labels committed by the ground-truth (expert) and the extractor (agent). Our experiments demonstrate that the proposed framework outperforms state-of-the-art methods.
+</p></blockquote></details>
+
+
+
+
 ## 2020
 
 <details>
 <summary>1. <a href="https://arxiv.org/abs/2002.10757">Event Detection with Relation-Aware Graph Convolutional Neural Networks</a> by<i> Shiyao Cui, Bowen Yu, Tingwen Liu, Zhenyu Zhang, Xuebin Wang, Jinqiao Shi</i></summary><blockquote><p align="justify">
 Event detection (ED), a key subtask of information extraction, aims to recognize instances of specific types of events in text. Recently, graph convolutional networks (GCNs) over dependency trees have been widely used to capture syntactic structure information and get convincing performances in event detection. However, these works ignore the syntactic relation labels on the tree, which convey rich and useful linguistic knowledge for event detection. In this paper, we investigate a novel architecture named Relation-Aware GCN (RA-GCN), which efficiently exploits syntactic relation labels and models the relation between words specifically. We first propose a relation-aware aggregation module to produce expressive word representation by aggregating syntactically connected words through specific relation. Furthermore, a context-aware relation update module is designed to explicitly update the relation representation between words, and these two modules work in the mutual promotion way. Experimental results on the ACE2005 dataset show that our model achieves a new state-of-the-art performance for event detection. 
 </p></blockquote></details>
+
 
 
 ## Semi-supervised learning 
