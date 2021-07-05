@@ -752,11 +752,15 @@ In this work, information about who, did what, when, where, why, and how on Indo
 </p></blockquote></details>
 
 <details>
-<summary>14. <a href="https://www.aclweb.org/anthology/P18-1048/">Self-regulation: Employing a Generative Adversarial Network to Improve Event Detection</a> by<i> Yu Hong, Wenxuan Zhou, Jingli Zhang, Guodong Zhou, Qiaoming Zhu</i> (<a href="https://github.com/JoeZhouWenxuan/Self-regulation-Employing-a-Generative-Adversarial-Network-to-Improve-Event-Detection">Github</a>)</summary><blockquote><p align="justify">
+<summary>14. <a href="https://www.aclweb.org/anthology/P18-1048/">Self-regulation: Employing a Generative Adversarial Network to Improve Event Detection </a> by<i> Yu Hong, Wenxuan Zhou, Jingli Zhang, Guodong Zhou, Qiaoming Zhu</i> (<a href="https://github.com/JoeZhouWenxuan/Self-regulation-Employing-a-Generative-Adversarial-Network-to-Improve-Event-Detection">Github</a>)</summary><blockquote><p align="justify">
 Due to the ability of encoding and mapping semantic information into a high-dimensional latent feature space, neural networks have been successfully used for detecting events to a certain extent. However, such a feature space can be easily contaminated by spurious features inherent in event detection. In this paper, we propose a self-regulated learning approach by utilizing a generative adversarial network to generate spurious features. On the basis, we employ a recurrent network to eliminate the fakes. Detailed experiments on the ACE 2005 and TAC-KBP 2015 corpora show that our proposed method is highly effective and adaptable.
 </p></blockquote></details>
 
 
+<details>
+<summary>15. <a href="https://tel.archives-ouvertes.fr/tel-01943841/document/">Neural Methods for Event Extraction </a> by<i> Emanuela Boros</i> (<a href="https://github.com/JoeZhouWenxuan/Self-regulation-Employing-a-Generative-Adversarial-Network-to-Improve-Event-Detection">Github</a>)</summary><blockquote><p align="justify">
+Neural Methods for Event Extraction
+</p></blockquote></details>
 
 <details>
 <summary>15. <a href="http://tcci.ccf.org.cn/conference/2018/papers/51.pdf">Event Detection via Recurrent Neural Networkand Argument Prediction</a> by<i> Wentao Wu, Xiaoxu Zhu, Jiaming Tao, and Peifeng Li</i></summary><blockquote><p align="justify">
